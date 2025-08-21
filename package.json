@@ -50,5 +50,8 @@
   "bugs": {
     "url": "https://github.com/volt-js/modules/issues"
   },
-  "homepage": "https://github.com/volt-js/modules#readme"
+  "homepage": "https://github.com/volt-js/modules#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
