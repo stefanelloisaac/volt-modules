@@ -1,0 +1,56 @@
+{
+  "name": "volt-modules",
+  "version": "1.0.0",
+  "description": "CLI for creating Next.js App Router feature modules with TanStack Query, React Hook Form, and TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "volt": "./dist/index.js",
+    "voltmodules": "./dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "node dist/index.js create-module --dry-run",
+    "create-module": "node dist/index.js create-module"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "chalk": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "nextjs",
+    "typescript",
+    "tanstack-query",
+    "react-hook-form",
+    "code-generator",
+    "feature-modules",
+    "crud",
+    "boilerplate"
+  ],
+  "author": "Isaac Stefanello <i.stefanello@unochapeco.edu.br>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanelloisaac/volt-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanelloisaac/volt-modules/issues"
+  },
+  "homepage": "https://github.com/stefanelloisaac/volt-modules#readme"
+}
