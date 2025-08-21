@@ -1,5 +1,5 @@
 {
-  "name": "volt-modules",
+  "name": "@volt.js/modules",
   "version": "1.0.0",
   "description": "CLI for creating Next.js App Router feature modules with TanStack Query, React Hook Form, and TypeScript",
   "type": "module",
@@ -45,10 +45,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefanelloisaac/volt-modules.git"
+    "url": "https://github.com/volt-js/modules.git"
   },
   "bugs": {
-    "url": "https://github.com/stefanelloisaac/volt-modules/issues"
+    "url": "https://github.com/volt-js/modules/issues"
   },
-  "homepage": "https://github.com/stefanelloisaac/volt-modules#readme"
+  "homepage": "https://github.com/volt-js/modules#readme"
 }

@@ -17,10 +17,10 @@ A powerful CLI tool for generating Next.js App Router feature modules with TanSt
 
 ```bash
 # Install globally
-npm install -g volt-modules
+npm install -g @volt.js/modules
 
 # Or use with npx (no installation needed)
-npx volt-modules init
+npx @volt.js/modules init
 ```
 
 ## Usage
