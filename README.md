@@ -20,7 +20,7 @@ A powerful CLI tool for generating Next.js App Router feature modules with TanSt
 npm install -g volt-modules
 
 # Or use with npx (no installation needed)
-npx volt-modules create-module
+npx volt-modules init
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npx volt-modules create-module
 ### Create a New Module
 
 ```bash
-volt create-module
+volt-modules init
 ```
 
 The CLI will prompt you for:
@@ -38,7 +38,7 @@ The CLI will prompt you for:
 ### Example
 
 ```bash
-$ volt create-module
+$ volt-modules init
 ? Do you want to include custom hooks? (y/N): y
 ? Enter module name: user-management
 
@@ -163,10 +163,10 @@ http://localhost:3000/user-management
 
 ```bash
 # Create in specific directory
-volt create-module --path ./src
+volt-modules init --path ./src
 
 # Preview what would be created
-volt create-module --dry-run
+volt-modules init --dry-run
 ```
 
 ## Contributing

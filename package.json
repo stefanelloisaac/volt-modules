@@ -5,8 +5,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
-    "volt": "./dist/index.js",
-    "voltmodules": "./dist/index.js"
+    "volt-modules": "./dist/index.js"
   },
   "files": [
     "dist/",
@@ -17,8 +16,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "test": "node dist/index.js create-module --dry-run",
-    "create-module": "node dist/index.js create-module"
+    "test": "node dist/index.js init --dry-run"
   },
   "dependencies": {
     "commander": "^14.0.0",
